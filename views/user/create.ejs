@@ -1,0 +1,30 @@
+<form action="/user/create" method="post">
+    <div>
+        <label>Username:</label>
+        <input type="text" name="username" />
+    </div>
+    <div>
+        <label>Password:</label>
+        <input type="password" name="password" />
+    </div>
+    <div>
+        <label>First Name:</label>
+        <input type="text" name="firstName" />
+    </div>
+    <div>
+        <label>Last Name:</label>
+        <input type="text" name="lastName" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input type="text" name="email" />
+    </div>
+    <div>
+        <input type="checkbox" name="ldap" value="1">LDAP User
+        <br />
+        <input type="checkbox" name="admin" value="1">Admin
+    </div>
+    <div>
+        <input type="submit" value="Submit" />
+    </div>
+</form>
